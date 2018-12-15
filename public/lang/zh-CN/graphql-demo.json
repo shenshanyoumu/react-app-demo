@@ -1,0 +1,12 @@
+{
+  "graphql-demo.news-football": "足球",
+  "graphql-demo.news-basketball": "篮球",
+  "graphql-demo.news-no-item": "没有相关新闻",
+  "graphql-demo.news": "新闻",
+  "graphql-demo.stock": "股票",
+  "graphql-demo.clean-message": "清除信息",
+  "graphql-demo.loading": "正在加载数据",
+  "graphql-demo.stock-shanghai": "上海",
+  "graphql-demo.stock-shenzhen": "深圳",
+  "graphql-demo.stock-no-item": "没有相关股票信息"
+}

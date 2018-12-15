@@ -1,0 +1,12 @@
+{
+  "graphql-demo.news-football": "football",
+  "graphql-demo.news-basketball": "basketball",
+  "graphql-demo.news-no-item": "no news",
+  "graphql-demo.news": "news",
+  "graphql-demo.stock": "stock",
+  "graphql-demo.clean-message": "clean message",
+  "graphql-demo.loading": "loading",
+  "graphql-demo.stock-shanghai": "shanghai",
+  "graphql-demo.stock-shenzhen": "shenzhen",
+  "graphql-demo.stock-no-item": "no stock"
+}

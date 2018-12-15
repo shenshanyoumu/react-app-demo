@@ -1,0 +1,6 @@
+{
+  "global.header": "header",
+  "global.footer": "footer",
+  "global.home": "home",
+  "global.graphql-demo": "Graphql DEMO"
+}

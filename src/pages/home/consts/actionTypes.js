@@ -1,0 +1,5 @@
+export const GET_NEWS_BY_TITLE = 'GET_NEWS_BY_TITLE';
+export const CLEAN_NEWS = 'CLEAN_NEWS';
+export const GET_STOCK_BY_MARKET = 'GET_STOCK_BY_MARKET';
+export const CLEAN_STOCK = 'CLEAN_STOCK';
+export const USE_INTL_IN_ACTION = 'USE_INTL_IN_ACTION';

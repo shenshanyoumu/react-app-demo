@@ -1,0 +1,73 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      },
+      "loose": true,
+      "modules": false
+    }],
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    ["import", {
+      "libraryName": "antd",
+      "style": true
+    }],
+    ["lodash"]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ] 
+    },
+    "test": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "current"
+          }
+        }],
+        "stage-0",
+        "react"
+      ]
+    },
+    "intl": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "current"
+          }
+        }],
+        "stage-0",
+        "react"
+      ],
+      "plugins": [
+        ["react-intl", {
+          "messagesDir": "./intl/messages"
+        }]
+      ]
+    },
+    "server": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "current"
+          },
+          "loose": true,
+          "modules": false
+        }],
+        "stage-0",
+        "react"
+      ],
+      "plugins": [
+        ["import", {
+          "libraryName": "antd",
+          "style": false
+        }]
+      ]
+    }
+  }
+}
